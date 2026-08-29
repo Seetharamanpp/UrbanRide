@@ -1,0 +1,22 @@
+DATABASE
+    MySQL
+        login_details
+            user_id, username, password(hash)
+
+        user_details
+            id,name,number,type
+
+        captain_details
+            user_id,vehicle_no,vehicle,licence_no
+
+        ride_details
+            id,captain_id,customer_id, pickup_location, drop_location, fare, status(requested,inprogress,completed,
+            cancelled_by_captain,cancelled_by_customer)
+
+FrontEnd
+    Flutter
+
+BackEnd
+    Java
+
+ 
